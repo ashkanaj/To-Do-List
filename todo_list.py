@@ -73,7 +73,7 @@ delete_all_btn.place(x=20, y=170, width=220)
 exit_btn = ttk.Button(win, text='Exit', command=exit_app)
 exit_btn.place(x=20, y=200, width=220)
 
-#table
+#tasks table
 table = tkinter.ttk.Treeview(win, columns=['Tasks'], show='headings')
 table.heading('Tasks', text='Tasks')
 table.place(x=250, y=80, width=220, height=145)
