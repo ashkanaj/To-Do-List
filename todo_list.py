@@ -24,7 +24,7 @@ def delete_selected():
     if selected_item:
         for item in selected_item:
             table.delete(item)
-        msg.showinfo('Deleted', 'Selected tasks deleted successfully!')
+        msg.showinfo('Deleted', 'Selected task deleted successfully!')
     else:
         msg.showwarning('No Selection', 'Please select a task to delete!')
 
