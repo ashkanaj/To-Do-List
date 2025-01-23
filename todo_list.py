@@ -34,7 +34,7 @@ def delete_all():
         if confirm:
             for item in table.get_children():
                 table.delete(item)
-            msg.showinfo('Deleted All', 'All tasks deleted successfully!')
+            msg.showwarning('Deleted All', 'All tasks deleted successfully!')
     else:
         msg.showwarning('No Tasks', 'There are no tasks to delete!')
 
